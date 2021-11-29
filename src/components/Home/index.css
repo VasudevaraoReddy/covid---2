@@ -1,0 +1,162 @@
+.home-bg {
+  background-color: #161625;
+  padding-top: 50px;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-design {
+  overflow-x: auto;
+  color: white;
+  width: 90%;
+  background-color: #1e1e30;
+  border: 1px solid #475569;
+  border-radius: 10px;
+}
+.users_table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.users_table th {
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #475569;
+  padding: 10px;
+  width: 20%;
+}
+.users_table td {
+  padding: 10px;
+  width: 20%;
+}
+.tr0 {
+  font-weight: 500;
+}
+.tr1 {
+  color: #ff073a;
+}
+.tr2 {
+  color: #007bff;
+}
+.tr3 {
+  color: #28a745;
+}
+.tr4 {
+  color: #6c757d;
+}
+
+.sort-sec {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-evenly;
+}
+.sort-icon {
+  color: #6c757d;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+.home-icons-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 50px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.confirmed {
+  color: #ff073a;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  justify-content: center;
+}
+.active {
+  color: #007bff;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  justify-content: center;
+}
+.recovered {
+  color: #28a745;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  justify-content: center;
+}
+.deceased {
+  color: #6c757d;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .table-design {
+    width: 80%;
+  }
+  .home-icons-section {
+    width: 100%;
+  }
+  .section1 {
+    width: 35%;
+    justify-content: space-around;
+  }
+}
+.search-list-section {
+  padding: 0;
+  list-style-type: none;
+  width: 80%;
+}
+.search-box {
+  padding: 10px;
+  border: none;
+  color: white;
+  outline: none;
+  width: 80%;
+  background-color: #2f2f43;
+}
+.sort-btn {
+  color: #94a3b8;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .search-box {
+    width: 40%;
+  }
+  .search-list-section {
+    width: 40%;
+  }
+}
+.no-results-section {
+  color: #007bff;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}

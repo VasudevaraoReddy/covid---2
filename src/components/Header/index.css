@@ -1,0 +1,111 @@
+.navbar {
+  background-color: #1e1e30;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #1e1e30;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    height: 80px;
+  }
+}
+li {
+  list-style-type: none;
+}
+.header-logo {
+  height: 30px;
+  width: 100px;
+}
+.home-icon {
+  color: white;
+  width: 21px;
+  height: 21px;
+  margin-right: 33px;
+}
+@media screen and (min-width: 768px) {
+  .header-logo {
+    height: 50px;
+    width: 150px;
+  }
+}
+.mobile-view {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  align-items: center;
+}
+.navbar-below-mobile {
+  color: white;
+  background-color: #161625;
+  list-style-type: none;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.mobile-below {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+}
+.cancel-icon {
+  margin-right: 34px;
+}
+@media screen and (min-width: 768px) {
+  .mobile-view {
+    display: none;
+  }
+  .navbar-below-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-view {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .desktop-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+  }
+}
+.icons-2 {
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+}
+.link-item {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.covid-name {
+  color: #f8fafc;
+  font-weight: 400;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+.india-name {
+  color: #3b82f6;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.desktop-logo {
+  margin-left: 150px;
+}
+.mobile-logo {
+  margin-left: 24px;
+}

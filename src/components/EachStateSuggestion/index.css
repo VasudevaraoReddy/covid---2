@@ -1,0 +1,26 @@
+.each-state-link {
+  color: #64748b;
+  text-decoration: none;
+}
+.each-state-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.each-state-name {
+  width: 70%;
+  margin-left: 10px;
+}
+.each-state-navigation {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 80px;
+  justify-content: space-evenly;
+  color: #facc15;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: rgba(28, 212, 212, 0.16);
+}
